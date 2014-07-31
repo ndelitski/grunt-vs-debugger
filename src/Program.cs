@@ -15,7 +15,8 @@ namespace VsDebugger
 
         static void Main(string[] args)
         {
-            var solutionName = args[0];
+            var argsList = args.ToList();
+            var solutionName = argsList.ElementAtOrDefault(0);
             if (string.IsNullOrEmpty(solutionName))
             {
                 Exit("Solution name must me provided as a first argument");
@@ -27,7 +28,7 @@ namespace VsDebugger
                 Exit("Cannot find devenv process with '{0}'", solutionName);
             }
 
-            var processName = args[1];
+            var processName = argsList.ElementAtOrDefault(1);
             if (string.IsNullOrEmpty(processName))
             {
                 Exit("Target process name must me provided as a second argument");
