@@ -1,0 +1,32 @@
+{
+  "name": "grunt-vs-debugger",
+  "version": "0.0.0",
+  "description": "Attaching Visual Studio debugger to application process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ndelitski/grunt-vs-debugger.git"
+  },
+  "keywords": [
+    "visual",
+    "studio",
+    "microsoft",
+    "nodejs"
+  ],
+  "author": "Nick Delitski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndelitski/grunt-vs-debugger/issues"
+  },
+  "homepage": "https://github.com/ndelitski/grunt-vs-debugger",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-msbuild": "^0.2.2"
+  },
+  "devDependencies": {
+    "grunt-release": "^0.7.0"
+  }
+}
