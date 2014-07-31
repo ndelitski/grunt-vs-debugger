@@ -4,6 +4,7 @@ module.exports = function(grunt) {
 
 	grunt.loadTasks('./tasks');
     grunt.loadNpmTasks('grunt-msbuild');
+    grunt.loadNpmTasks('grunt-release');
 
  	grunt.initConfig({
  		msbuild: {
