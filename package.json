@@ -1,6 +1,6 @@
 {
   "name": "grunt-vs-debugger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Attaching Visual Studio debugger to application process",
   "main": "index.js",
   "scripts": {
