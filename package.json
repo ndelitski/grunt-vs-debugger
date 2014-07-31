@@ -1,10 +1,10 @@
 {
   "name": "grunt-vs-debugger",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Attaching Visual Studio debugger to application process",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "grunt default"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ndelitski/grunt-vs-debugger/issues"
-  },
-  "scripts": {
-    "postinstall": "grunt default"
   },
   "homepage": "https://github.com/ndelitski/grunt-vs-debugger",
   "dependencies": {
