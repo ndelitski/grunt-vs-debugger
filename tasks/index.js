@@ -10,7 +10,7 @@ module.exports = function(grunt){
 		if (!options.processName)
 			grunt.fail.fatal('processName option is missing');
 		
-		var attacher = require('child_process').spawn(require('path').resolve(__dirname, pathToExe), [options.solutionName], {
+		var attacher = require('child_process').spawn(require('path').resolve(__dirname, pathToExe), [options.solutionName, options.processName], {
 			 stdio: [ 'ignore', process.stdout, process.stderr ]
 		});
 
