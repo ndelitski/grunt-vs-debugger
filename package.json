@@ -11,8 +11,7 @@
     "url": "git@github.com:ndelitski/grunt-vs-debugger.git"
   },
   "keywords": [
-    "visual",
-    "studio",
+    "visual studio",
     "microsoft",
     "nodejs"
   ],
@@ -20,6 +19,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ndelitski/grunt-vs-debugger/issues"
+  },
+  "scripts": {
+    "postinstall": "grunt default"
   },
   "homepage": "https://github.com/ndelitski/grunt-vs-debugger",
   "dependencies": {
